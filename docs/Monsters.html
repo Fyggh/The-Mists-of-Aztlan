@@ -1079,6 +1079,67 @@
     </property-block>
 
   </stat-block>
+
+  <stat-block id="Allosaurus">
+    <creature-heading>
+      <h1>Allosaurus</h1>
+      <h2>Large beast, unaligned</h2>
+    </creature-heading>
+
+    <top-stats>
+      <property-line>
+        <h4>Armor Class</h4>
+        <p>13 (natural armor)</p>
+      </property-line>
+      <property-line>
+        <h4>Hit Points</h4>
+        <p>51 (6d10 + 18)</p>
+      </property-line>
+      <property-line>
+        <h4>Speed</h4>
+        <p>60 ft.</p>
+      </property-line>
+
+      <abilities-block data-str="19" data-dex="13" data-con="17" data-int="2" data-wis="12" data-cha="5" ></abilities-block>
+
+      <property-line>
+        <h4>Skills</h4>
+        <p>Perception +5</p>
+      </property-line>
+      <property-line>
+        <h4>Senses</h4>
+        <p>passive Perception 15</p>
+      </property-line>
+      <property-line>
+        <h4>Languages</h4>
+        <p>—</p>
+      </property-line>
+      <property-line>
+        <h4>Challenge</h4>
+        <p>2 (450 XP)</p>
+      </property-line>
+    </top-stats>
+
+    <property-block>
+      <h4>Pounce.</h4>
+      <p>If the allosaurus moves at least 30 ft. straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone. If the target is prone, the allosaurus can make one bite attack against it as a bonus action.</p>
+    </property-block>
+
+    <h3>Actions</h3>
+
+    <property-block>
+      <h4>Bite.</h4>
+      <p><i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target.
+        <i>Hit:</i> 15 (2d10 + 4) piercing damage.</p>
+    </property-block>
+    <property-block>
+      <h4>Claw.</h4>
+      <p><i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target.
+        <i>Hit:</i> 8 (1d8 + 4) slashing damage.</p>
+    </property-block>
+
+  </stat-block>
+
   <stat-block>
     <creature-heading id="Lizardfolk Shaman">
       <h1>Lizardfolk Shaman</h1>
@@ -1613,8 +1674,113 @@
       <p><i>Melee Weapon Attack:</i> +6 to hit, reach 10 ft., one target.
         <i>Hit:</i> 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.</p>
     </property-block>
+
+  </stat-block>
+
+  <stat-block id="Shadow Beast" data-two-column>
+    <creature-heading>
+      <h1>Shadow Beast</h1>
+      <h2>Large monstrosity, lawful evil</h2>
+    </creature-heading>
+
+    <top-stats>
+      <property-line>
+        <h4>Armor Class</h4>
+        <p>13 (natural armor)</p>
+      </property-line>
+      <property-line>
+        <h4>Hit Points</h4>
+        <p>85 (10d10 + 30)</p>
+      </property-line>
+      <property-line>
+        <h4>Speed</h4>
+        <p>40 ft.</p>
+      </property-line>
+
+      <abilities-block data-str="18" data-dex="15" data-con="16" data-int="6" data-wis="12" data-cha="8" ></abilities-block>
+
+      <property-line>
+        <h4>Senses</h4>
+        <p>darkvision 60 ft., passive Perception 11</p>
+      </property-line>
+      <property-line>
+        <h4>Languages</h4>
+        <p>Draconic</p>
+      </property-line>
+      <property-line>
+        <h4>Challenge</h4>
+        <p>4 (1100 XP)</p>
+      </property-line>
+    </top-stats>
+
+    <property-block>
+      <h4>Avoidance.</h4>
+      <p> If the displacer beast is subjected to an effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw, and only half damage if it fails.</p>
+    </property-block>
+    <property-block>
+      <h4>Displacement.</h4>
+      <p>The displacer beast projects a magical illusion that makes it appear to be standing near its actual location, causing attack rolls against it to have disadvantage. If it is hit by an attack, this trait is disrupted until the end of its next turn. This trait is also disrupted while the displacer beast is incapacitated or has a speed of 0.</p>
+    </property-block>
+
+    <h3>Actions</h3>
+
+    <property-block>
+      <h4>Multiattack.</h4>
+      <p>The displacer beast makes two attacks with its tentacles.</p>
+    </property-block>
+    <property-block>
+      <h4>Tentacle.</h4>
+      <p><i>Melee Weapon Attack:</i> +6 to hit, reach 10 ft., one target.
+        <i>Hit:</i> 7 (1d6 + 4) bludgeoning damage plus 3 (1d6) piercing damage.</p>
+    </property-block>
+    <property-block>
+      <h4>Bite.</h4>
+      <p><i>Melee Weapon Attack:</i> +6 to hit, reach 5 ft., one target.
+        <i>Hit:</i> 6 (1d4 + 4) piercing damage.</p>
+    </property-block>
+    <property-block>
+      <h4>Invisibility.</h4>
+      <p>If the shadow beast is in an area of darkness, the shadow beast may become invisible. The effect ends when the shadow beast attacks.</p>
+    </property-block>
+
+    <h3>Legendary Actions</h3>
+
+    <property-block>
+      <p>The shadow beast can take 3 legendary actions, choosing from the options below. Only one legendary action can be used at a time and only at the end of another creature's turn. The shadow beast regains spent legendary actions at the start of its turn.</p>
+    </property-block>
+    <property-block>
+      <h4>Teleport.</h4>
+      <p>The shadow beast magically teleports, along with any equipment it is wearing or carrying, up to 40 ft. to an unoccupied space it can see. Before or after teleporting, the shadow beast can make one bite attack.</p>
+    </property-block>
+    <property-block>
+      <h4>Tentacle.</h4>
+      <p>The shadow beast makes one tentacle attack.</p>
+    </property-block>
+    <property-block>
+      <h4>Madness. (Costs 2 actions)</h4>
+      <p>The shadow beast channels negative energy into another creature's mind. The target must succeed on a DC 13 Wisdom saving throw or suffer a random short-term madness.</p>
+    </property-block>
+
+    <h3>Lair Actions</h3>
+
+    <property-block>
+      <p>When fighting inside its lair, a shadow beast can invoke the ambient magic to take lair actions. On initiative count 20 (losing initiative ties), the shadow beast takes a lair action to cause one of the following effects:</p>
+    </property-block>
+    <property-block>
+      <h4>Brambles.</h4>
+      <p>The brambles in the shadow beast's lair come alive and attempt to grab hostile creatures. A creature within 5 feet of a patch of brambles must succeed on a DC 13 Strength saving throw or be restrained by the brambles for 1d4 rounds. A creature restrained by the brambles can use its action to make a Strength check (DC 13). On a success, it frees itself. The shadow beast can't use this lair action until it has used a different one.</p>
+    </property-block>
+    <property-block>
+      <h4>Silent Image.</h4>
+      <p>An illusory shadow beast appears in the lair, functioning as a <i>silent image</i> spell. The image may move on the shadow beast's initiative count. No other lair actions may be taken while the image exists, but the shadow beast may dispel the illusion at any time.</p>
+    </property-block>
+    <property-block>
+      <h4>Darkness.</h4>
+      <p>If the shadow beast is below half health, the shadows in the shadow beast's lair grow until the entire area is affected by the <i>darkness</i> spell. The shadow beast is unaffected by this magical darkness. This lair action may only be taken once per day.</p>
+    </property-block>
     
   </stat-block>
+
   <stat-block id="Guardian Beast">
     <creature-heading>
       <h1>Guardian Beast</h1>
